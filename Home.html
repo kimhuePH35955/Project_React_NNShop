@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="container w-[1440px] m-auto">
+
+    <header class="max-w-[1249px] h-[100px] m-auto grid grid-cols-3 gap-[50px] items-center bg-white">
+      <a class="w-[185px] h-[45px]" href="">
+        <img class="w-[185px] h-[45px] object-fill" src="assets/icons/logo.svg" alt="">
+      </a>
+      <nav>
+        <ul class="flex justify-between">
+          <li><a class="text-[20px] font-bold" href="">Home</a></li>
+          <li><a class="text-[20px] font-bold" href="">Shop</a></li>
+          <li><a class="text-[20px] font-bold" href="">About</a></li>
+          <li><a class="text-[20px] font-bold" href="">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex justify-around">
+        <div class="ml-[30px]">
+          <img class="w-[28px] h-[28px]" src="assets/icons/home/header_icon1.svg" />
+        </div>
+        <div class="">
+          <img src="assets/icons/home/header_icon2.svg" />
+        </div>
+        <div class="">
+          <img src="assets/icons/home/header_icon3.svg" />
+        </div>
+        <div class="">
+          <img src="assets/icons/home/header_icon4.svg" />
+        </div>
+      </div>
+    </header>
+    <banner class="w-[1440px] h-[500px] ">
+      <div class="w-[1440px] h-[500px] relative text-center m-auto">
+        <img class="w-[100%] h-[100%] object-cover opacity-50" src="assets/images/home/bannerHome.jpg" alt="">
+
+        <span
+          class=" w-[244px] leading-[72px] -translate-x-1/2 -translate-y-1/2 absolute top-[174px] text-[48px] font-medium">Trang
+          chủ</span>
+        <span class="-translate-x-1/2 -translate-y-1/2 font-medium absolute bottom-[145px]">Home</span>
+      </div>
+    </banner>
+
+    <main class="w-[1240px] m-auto">
+
+      <div class="new">
+
+        <p class="text-[40px] font-medium mt-[45px] mb-[13px]">New</p>
+
+        <div class="w-[100%] border border-black mb-[55px]">
+        </div>
+
+        <div class="w-[100%] grid grid-cols-4 gap-[30px] ">
+
+          <div class="group h-[446px] relative bg-white overflow-hidden shadow-lg rounded-lg">
+            <!-- Phần nội dung item -->
+            <div class="relative">
+              <img class="w-full h-[300px] object-cover group-hover:opacity-50" src="assets/images/home/new1.png"
+                alt="">
+              <div
+                class="absolute top-[25px] right-[25px] w-[48px] h-[48px] rounded-full bg-[#E97171] text-center flex items-center justify-center">
+                <span class="text-white font-medium">-30%</span>
+              </div>
+              <div class="mt-[13px] p-[16px]">
+                <p class="text-[24px] font-semibold">Syltherine</p>
+                <p class="text-[#898989]">Stylish cafe chair</p>
+                <div class="flex justify-between items-end">
+                  <p class="font-semibold text-[20px]">2.500.000</p>
+                  <del class="font-semibold text-[20px] text-[#898989]">3.000.000</del>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer hiển thị khi hover -->
+            <div
+              class="absolute inset-0 bg-gray-500 bg-opacity-70 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div class="text-center">
+                <button class="w-[202px] h-[48px] text-[#B88E2F] font-semibold bg-white mb-[20px]">Add to cart</button>
+                <div class="flex justify-around w-[202px] m-auto">
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new-icon1.svg" alt=""><span
+                      class="text-white ml-[2px]">Share</span></a>
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new_icon2.svg" alt=""></a>
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new_icon3.svg" alt=""><span
+                      class="text-white ml-[2px]">Like</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="group h-[446px] relative bg-white overflow-hidden shadow-lg rounded-lg">
+            <!-- Phần nội dung item -->
+            <div class="relative">
+              <img class="w-full h-[300px] object-cover group-hover:opacity-50" src="assets/images/home/new1.png"
+                alt="">
+              <div
+                class="absolute top-[25px] right-[25px] w-[48px] h-[48px] rounded-full bg-[#E97171] text-center flex items-center justify-center">
+                <span class="text-white font-medium">-30%</span>
+              </div>
+              <div class="mt-[13px] p-[16px]">
+                <p class="text-[24px] font-semibold">Syltherine</p>
+                <p class="text-[#898989]">Stylish cafe chair</p>
+                <div class="flex justify-between items-end">
+                  <p class="font-semibold text-[20px]">2.500.000</p>
+                  <del class="font-semibold text-[20px] text-[#898989]">3.000.000</del>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer hiển thị khi hover -->
+            <div
+              class="absolute inset-0 bg-gray-500 bg-opacity-70 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div class="text-center">
+                <button class="w-[202px] h-[48px] text-[#B88E2F] font-semibold bg-white mb-[20px]">Add to cart</button>
+                <div class="flex justify-around w-[202px] m-auto">
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new-icon1.svg" alt=""><span
+                      class="text-white ml-[2px]">Share</span></a>
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new_icon2.svg" alt=""></a>
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new_icon3.svg" alt=""><span
+                      class="text-white ml-[2px]">Like</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="group h-[446px] relative bg-white overflow-hidden shadow-lg rounded-lg">
+            <!-- Phần nội dung item -->
+            <div class="relative">
+              <img class="w-full h-[300px] object-cover group-hover:opacity-50" src="assets/images/home/new1.png"
+                alt="">
+              <div
+                class="absolute top-[25px] right-[25px] w-[48px] h-[48px] rounded-full bg-[#E97171] text-center flex items-center justify-center">
+                <span class="text-white font-medium">-30%</span>
+              </div>
+              <div class="mt-[13px] p-[16px]">
+                <p class="text-[24px] font-semibold">Syltherine</p>
+                <p class="text-[#898989]">Stylish cafe chair</p>
+                <div class="flex justify-between items-end">
+                  <p class="font-semibold text-[20px]">2.500.000</p>
+                  <del class="font-semibold text-[20px] text-[#898989]">3.000.000</del>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer hiển thị khi hover -->
+            <div
+              class="absolute inset-0 bg-gray-500 bg-opacity-70 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div class="text-center">
+                <button class="w-[202px] h-[48px] text-[#B88E2F] font-semibold bg-white mb-[20px]">Add to cart</button>
+                <div class="flex justify-around w-[202px] m-auto">
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new-icon1.svg" alt=""><span
+                      class="text-white ml-[2px]">Share</span></a>
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new_icon2.svg" alt=""></a>
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new_icon3.svg" alt=""><span
+                      class="text-white ml-[2px]">Like</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="group h-[446px] relative bg-white overflow-hidden shadow-lg rounded-lg">
+            <!-- Phần nội dung item -->
+            <div class="relative">
+              <img class="w-full h-[300px] object-cover group-hover:opacity-50" src="assets/images/home/new1.png"
+                alt="">
+              <div
+                class="absolute top-[25px] right-[25px] w-[48px] h-[48px] rounded-full bg-[#E97171] text-center flex items-center justify-center">
+                <span class="text-white font-medium">-30%</span>
+              </div>
+              <div class="mt-[13px] p-[16px]">
+                <p class="text-[24px] font-semibold">Syltherine</p>
+                <p class="text-[#898989]">Stylish cafe chair</p>
+                <div class="flex justify-between items-end">
+                  <p class="font-semibold text-[20px]">2.500.000</p>
+                  <del class="font-semibold text-[20px] text-[#898989]">3.000.000</del>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer hiển thị khi hover -->
+            <div
+              class="absolute inset-0 bg-gray-500 bg-opacity-70 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div class="text-center">
+                <button class="w-[202px] h-[48px] text-[#B88E2F] font-semibold bg-white mb-[20px]">Add to cart</button>
+                <div class="flex justify-around w-[202px] m-auto">
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new-icon1.svg" alt=""><span
+                      class="text-white ml-[2px]">Share</span></a>
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new_icon2.svg" alt=""></a>
+                  <a href="#" class="flex items-center"><img src="assets/icons/home/new_icon3.svg" alt=""><span
+                      class="text-white ml-[2px]">Like</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[100%] border border-black mt-[80px] mb-[55px]">
+        </div>
+
+
+
+
+      </div>
+
+      <div class="shop mt-[20px] w-[100%] mb-[55px]">
+
+        <p class="text-[40px] font-medium mt-[70px] mb-[13px]">Shop</p>
+
+        <div class="w-[100%] border border-black mb-[55px]">
+        </div>
+        <div class="grid grid-cols-2 gap-[30px]">
+          <div class="w-[605px] h-[469px]">
+            <a href="">
+              <img class="w-[605px] h-[469px] object-cover" src="assets/images/home/shop1.png" alt="">
+            </a>
+          </div>
+          <div class="w-[605px] h-[469px]">
+            <a href="">
+              <img class="w-[605px] h-[469px] object-cover" src="assets/images/home/shop2.png" alt="">
+            </a>
+          </div>
+          <div class="w-[605px] h-[469px]">
+            <a href="">
+              <img class="w-[605px] h-[469px] object-cover" src="assets/images/home/shop3.png" alt="">
+            </a>
+          </div>
+          <div class="w-[605px] h-[469px]">
+            <a href="">
+              <img class="w-[605px] h-[469px] object-cover" src="assets/images/home/shop4.png" alt="">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="blog mt-[20px] w-[100%] mb-[140px]">
+
+        <p class="text-[40px] font-medium mt-[70px] mb-[40px]">BLOG</p>
+
+        <div class="w-[100%] border border-black mb-[65px]">
+        </div>
+
+        <div class="w-[100%] ">
+
+
+          <div class="w-[100%] h-[250px] grid grid-cols-2 gap-[30px] mb-[66px] ">
+
+            <a class="w-[100%] h-[100%]" href="">
+              <img class="w-[100%] h-[100%]" src="assets/images/home/blog1.png" alt="">
+            </a>
+
+            <div class="w-[90%] flex flex-col justify-between">
+              <p class="text-[20px] font-medium mt-[51px]">THE ULTIMATE SOFA BUYING GUIDE</p>
+              <p class="font-medium text-[#898989]">Your level of comfort when geting into and out of bed can be greatly
+                influenced by
+                the bed frame you
+                choose. It may significantly affect how want your bedroom to feet and look</p>
+              <div class="">
+                <a class="text-[20px] flex items-center justify-end mb-[8px] " href="">ABOUT <img
+                    class=" ml-[10px] w-[22px] h-[21px]" src="assets/icons/home/blog_muiten.svg" alt=""></a>
+                <div class="w-[100%] border border-black ">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[100%] h-[250px] grid grid-cols-2 gap-[30px] mb-[66px] ">
+
+            <a class="w-[100%] h-[100%]" href="">
+              <img class="w-[100%] h-[100%]" src="assets/images/home/blog2.png" alt="">
+            </a>
+
+            <div class="w-[90%] flex flex-col justify-between">
+              <p class="text-[20px] font-medium mt-[51px]">A BEDROOM MUST HAVE SOME THING LIKE THIS</p>
+              <p class="font-medium text-[#898989]">Your level of comfort when geting into and out of bed can be greatly
+                influenced by
+                the bed frame you
+                choose. It may significantly affect how want your bedroom to feet and look</p>
+              <div class="">
+                <a class="text-[20px] flex items-center justify-end mb-[8px] " href="">ABOUT <img
+                    class=" ml-[10px] w-[22px] h-[21px]" src="assets/icons/home/blog_muiten.svg" alt=""></a>
+                <div class="w-[100%] border border-black ">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[100%] h-[250px] grid grid-cols-2 gap-[30px] mb-[66px] ">
+
+            <a class="w-[100%] h-[100%]" href="">
+              <img class="w-[100%] h-[100%]" src="assets/images/home/blog3.png" alt="">
+            </a>
+
+            <div class="w-[90%] flex flex-col justify-between">
+              <p class="text-[20px] font-medium mt-[51px]">WHY IS A TV CONSOLE A MUST IN EVERY HOUSE</p>
+              <p class="font-medium text-[#898989]">People do a lot of research to make sure they purchase the ideal
+                televisoin. And like the rest of us, you want to keep that gorgeous flat srceen in your living or
+                bedroom on a table or stand</p>
+              <div class="">
+                <a class="text-[20px] flex items-center justify-end mb-[8px] " href="">ABOUT <img
+                    class=" ml-[10px] w-[22px] h-[21px]" src="assets/icons/home/blog_muiten.svg" alt=""></a>
+                <div class="w-[100%] border border-black ">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+      <!-- section_footer -->
+    </main>
+    <div class="w-full bg-[#FAF3EA] flex justify-around py-[106px] ">
+      <div class=" flex">
+        <img class="w-[60px] h-[60px] m-[2px]" src="assets/icons/home/section_footer1.svg" alt="">
+        <div class="flex flex-col ">
+          <p class="text-[25px] font-semibold">High Quality</p>
+          <p>crafted from top materials</p>
+        </div>
+      </div>
+      <div class=" flex">
+        <img class="w-[60px] h-[60px] m-[2px]" src="assets/icons/home/section_footer2.svg" alt="">
+        <div class="flex flex-col ">
+          <p class="text-[25px] font-semibold">Warranty Protection</p>
+          <p>Over 2 years</p>
+        </div>
+      </div>
+      <div class=" flex">
+        <img class="w-[60px] h-[60px] m-[2px]" src="assets/icons/home/section_footer3.svg" alt="">
+        <div class="flex flex-col ">
+          <p class="text-[25px] font-semibold">Free Shipping</p>
+          <p>Order over 150 $</p>
+        </div>
+      </div>
+      <div class=" flex">
+        <img class="w-[60px] h-[60px] m-[2px]" src="assets/icons/home/section_footer4.svg" alt="">
+        <div class="flex flex-col ">
+          <p class="text-[25px] font-semibold">24 / 7 Support</p>
+          <p>Dedicated support</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w-full ">
+      <div class="max-w-[1240px] h-[419px] bg-pink m-auto mt-[42px] mb-[40px]">
+        <div class="flex flex-cols justify-between h-[312px] mb-[50px] ">
+
+          <div class="w-[30%]">
+            <a class="text-[24px] font-bold mt-[0px] block mb-[40px] h-[40px]" href="">Funiro.</a>
+            <p class="text-[#9F9F9F]">400 University Drive Suite 200 Coral Gables,
+              FL 33134 USA</p>
+          </div>
+
+          <div class="w-[15%] flex flex-col ">
+            <a class="font-medium text-[#9F9F9F] mb-[40px] h-[40px] flex items-center" href="">Links</a>
+            <ul class="flex flex-col justify-between">
+              <li><a class="font-medium mb-[40px] block" href="">Home</a></li>
+              <li><a class="font-medium mb-[40px] block" href="">Shop</a></li>
+              <li><a class="font-medium mb-[40px] block" href="">About</a></li>
+              <li><a class="font-medium" href="">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="w-[15%]">
+            <a class="font-medium text-[#9F9F9F] mb-[40px] block h-[40px] flex items-center" href="">Help</a>
+            <ul class="inline-block">
+              <li><a class="font-medium mb-[40px] block" href="">Payment Options</a></li>
+              <li><a class="font-medium mb-[40px] block" href="">Returns</a></li>
+              <li><a class="font-medium block" href="">Privacy Policies</a></li>
+            </ul>
+          </div>
+
+          <div class="25%">
+            <a class="font-medium text-[#9F9F9F] block mb-[40px] h-[40px] flex items-center" href="">Newsletter</a>
+            <form action="">
+              <input type="text-[14px] border-b-2 outline-none p-[2px]" placeholder="Enter Your Email Address">
+              <button class="font-medium text-[14px] p-[2px] border-b-2 outline-none">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+        <div class=" h-[59px] border-t-[1px] py-[40px]">2023 furino. All rights reverved</div>
+      </div>
+
+    </footer>
+  </div>
+</body>
+
+</html>
